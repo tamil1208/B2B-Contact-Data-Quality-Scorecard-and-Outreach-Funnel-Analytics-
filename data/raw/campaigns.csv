@@ -1,0 +1,13 @@
+campaign_id,segment,personalization,start_date
+CMP01,SaaS,Generic,2026-08-03
+CMP02,Fintech,Personalized,2026-08-10
+CMP03,Marketing Agency,Generic,2026-08-17
+CMP04,Manufacturing,Personalized,2026-08-24
+CMP05,Healthcare IT,Generic,2026-08-31
+CMP06,SaaS,Personalized,2026-09-07
+CMP07,Fintech,Generic,2026-09-14
+CMP08,Marketing Agency,Personalized,2026-09-21
+CMP09,SaaS,Generic,2026-09-28
+CMP10,Manufacturing,Personalized,2026-10-05
+CMP11,Healthcare IT,Generic,2026-10-12
+CMP12,Fintech,Personalized,2026-10-19
