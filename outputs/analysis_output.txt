@@ -1,0 +1,59 @@
+RAW rows: 4120 3640
+Duplicate contact rows: 2.9%
+Missing/placeholder titles: 6.2%
+Missing employee_count: 7.6%
+CLEAN rows: 4000 3600 | unmatched events: 0
+
+OVERALL
+ sent            3600.0000
+bounce_rate        0.1286
+reply_rate         0.0497
+meeting_rate       0.0163
+
+BY personalization
+                    sent  bounce_rate  reply_rate  meeting_rate
+personalization                                               
+Generic          1800.0       0.1333      0.0365        0.0141
+Personalized     1800.0       0.1239      0.0628        0.0184
+
+BY provider
+               sent  bounce_rate  reply_rate  meeting_rate
+provider                                                 
+Provider A  1437.0       0.0814      0.0515        0.0182
+Provider B  1270.0       0.1402      0.0485        0.0137
+Provider C   893.0       0.1881      0.0483        0.0166
+
+BY email_status
+                 sent  bounce_rate  reply_rate  meeting_rate
+email_status                                               
+invalid        485.0       0.7175      0.0803        0.0365
+risky          382.0       0.1021      0.0437        0.0146
+unknown        297.0       0.1380      0.0430        0.0156
+valid         2436.0       0.0144      0.0496        0.0154
+
+BY title_match
+                sent  bounce_rate  reply_rate  meeting_rate
+title_match                                               
+No           1172.0       0.1613      0.0366        0.0132
+Yes          2428.0       0.1129      0.0557        0.0176
+
+BY segment
+                    sent  bounce_rate  reply_rate  meeting_rate
+segment                                                       
+Fintech           900.0       0.1389      0.0581        0.0155
+Healthcare IT     600.0       0.1333      0.0288        0.0115
+Manufacturing     600.0       0.1183      0.0681        0.0170
+Marketing Agency  600.0       0.1233      0.0532        0.0266
+SaaS              900.0       0.1256      0.0407        0.0127
+
+SCORECARD
+             contacts  valid_email_pct  title_match_pct  title_known_pct  quality_index
+provider                                                                              
+Provider A      1606            0.797            0.828            0.932         81.258
+Provider B      1380            0.647            0.641            0.945         64.384
+Provider C      1014            0.506            0.479            0.937         49.260
+
+Chi-square personalization vs reply: chi2=10.88 p=0.0010
+Reply-rate lift: 0.026 (95% CI 0.011 to 0.041)
+Chi-square title_match vs reply: chi2=4.81 p=0.0283
+Corr(valid email flag, bounce): -0.494
