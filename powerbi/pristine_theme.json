@@ -1,0 +1,15 @@
+{
+  "name": "Pristine Dark",
+  "dataColors": ["#C9498F", "#8E3FB0", "#EF8A46", "#D26584", "#B84FB0", "#F3C6DE"],
+  "background": "#241B2B",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#C9498F",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": false }],
+        "title": [{ "fontColor": { "solid": { "color": "#FFFFFF" } } }]
+      }
+    }
+  }
+}
